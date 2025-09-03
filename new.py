@@ -1,13 +1,11 @@
-variable1=20
-variable2="20"
-is_sunny = True
-is_raining = False
-print()
+toppings = ['mushrooms', 'green peppers', 'extra cheese']
 
-#list
-developers=["richard", "ose", "helen"]
-accounting=["micheal", "john", "lucas", 2312]
-print(developers)
+for topping in toppings:
+    if topping == 'green peppers':
+        print("Sorry, we are out of green peppers right now.")
+    else:
+        print(f"Adding {topping}.")
 
-#access via index
-print(developers[2])
+print("Finished making your pizza!")
+
+
