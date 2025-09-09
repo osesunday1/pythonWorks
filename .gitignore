@@ -1,0 +1,9 @@
+# Python cache & artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+
+# Editors/OS cruft
+.DS_Store
